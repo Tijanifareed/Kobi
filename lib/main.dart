@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
 
-      home: HomePage(),
+      home: HomePage(userName: "Fareed", balance: 2000.0),
     );
   }
 }
